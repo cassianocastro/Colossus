@@ -2,8 +2,5 @@
     "[shellscript]": {
         "files.eol": "\n",
         "editor.cursorStyle": "block"
-    },
-    "files.association": {
-        ".twig": "html"
     }
 }
