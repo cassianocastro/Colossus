@@ -1,8 +1,4 @@
-#include <iso646.h>
-#include <string.h>
-
 #include "./includes/houses.h"
-#include "./includes/helpers.h"
 
 char* numext(uint value, char* response)
 {

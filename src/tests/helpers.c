@@ -1,5 +1,3 @@
-#include <iso646.h>
-#include "./includes/globals.h"
 #include "./includes/helpers.h"
 
 char* getContent(char* cardinal, char* ordinal)

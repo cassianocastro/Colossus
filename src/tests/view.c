@@ -1,4 +1,3 @@
-#include <iso646.h>
 #include "./includes/view.h"
 
 //extern bool isMulher, isOrdinal;
