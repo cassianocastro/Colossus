@@ -5,19 +5,18 @@ void numeroextenso(uint value)
 {
     char response[300] = "";
 
-    getMilhao(value, response);
-    getMil(value, response);
-    getCentenas(value, response);
+    setDivisionOfMilhoes(value, response);
+    setDivisionOfMilhares(value, response);
+    setDivisionOfCentenas(value, response);
 
     printf("\n%s\n", response);
 }
 
 void setDivisionOfMilhoes(uint value, char* response)
 {
-    int milhao = value / 1000000;
+    uint milhao = value / 1000000;
 
     if (milhao == 0) return;
-
 
     char text[20] = "Milhonésim";
 
@@ -34,7 +33,7 @@ void setDivisionOfMilhoes(uint value, char* response)
 
 void setDivisionOfMilhares(uint value, char* response)
 {
-    int mil = (value % 1000000) / 1000;
+    uint mil = (value % 1000000) / 1000;
 
 	if (mil == 0) return;
 
