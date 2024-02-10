@@ -4,7 +4,7 @@
 #include <iso646.h>
 #include <string.h>
 #include <ctype.h>
-#include "./includes/Colossus.h"
+#include "../includes/Colossus.h"
 
 const uint ONE_MILLION = 1000000;
 const uint THOUSAND    = 1000;
