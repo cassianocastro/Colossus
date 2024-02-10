@@ -2,7 +2,12 @@
 
 #define COLOSSUS_H
 
+#include <ctype.h>
+#include <iso646.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #define MAX_SIZE_RESPONSE 200
 
