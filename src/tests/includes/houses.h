@@ -2,7 +2,10 @@
 
 #define HOUSES_H
 
-#include "./globals.h"
+#include <iso646.h>
+#include <string.h>
+
+#include "./helpers.h"
 
 /**
  *

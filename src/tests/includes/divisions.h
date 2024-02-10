@@ -2,7 +2,7 @@
 
 #define DIVISIONS_H
 
-#include "./globals.h"
+#include "./houses.h"
 
 /**
  *

@@ -2,6 +2,10 @@
 
 #define HELPERS_H
 
+#include <iso646.h>
+
+#include "./globals.h"
+
 /**
  *
  */
