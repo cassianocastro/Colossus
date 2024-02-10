@@ -23,55 +23,55 @@ char* response = NULL;
 
 void startApp(void);
 
-void print(const char* content);
+void print(const char*);
 
 const char* getMenu(void);
 
 Inputs getInputs(void);
 
-bool isValid(uint value);
+bool isValid(uint);
 
-void turnIntoExtensive(uint number);
-
-
-void writeMillions(uint number);
-
-void writeThousands(uint number);
-
-void writeHundreds(uint number);
-
-void numext(uint number);
+void turnIntoExtensive(uint);
 
 
-char* switchC(uint number, uint d, uint u);
+void writeMillions(uint);
 
-char* switchD(short d, short u);
+void writeThousands(uint);
 
-char* switchU(short u);
+void writeHundreds(uint);
 
-char* switchCase1(short u);
+void numext(uint);
+
+
+char* switchC(uint, uint, uint);
+
+char* switchD(short, short);
+
+char* switchU(short);
+
+char* switchCase1(short);
 
 
 bool isOrdinal();
 
-char* appendOrdinalSuffix(char* word);
+char* appendOrdinalSuffix(char*);
 
-char* appendCardinalSuffix(char* word);
-
-
-
-char* getCentenaOrdinal(uint value);
-
-char* getCentenaCardinal(uint value);
-
-char* getDezenaOrdinal(uint value);
-
-char* getDezenaOrdinal(uint value);
+char* appendCardinalSuffix(char*);
 
 
 
-char* centenas(char* palavra, char* palavra2, short d);
+char* getCentenaOrdinal(uint);
 
-char* dezenas(char* palavra, char* palavra2, short u);
+char* getCentenaCardinal(uint);
+
+char* getDezenaOrdinal(uint);
+
+char* getDezenaOrdinal(uint);
+
+
+
+char* centenas(char*, char*, short);
+
+char* dezenas(char*, char*, short);
 
 #endif
