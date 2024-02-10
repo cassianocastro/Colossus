@@ -21,8 +21,7 @@ function getFiles()
 
 function compileSources()
 {
-    for file in $files
-    do
+    for file in $files do
         local name="${file%.c}"
 
         gcc -c "$src/$file" -o "$bin/$name.o"
