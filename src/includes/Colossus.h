@@ -17,6 +17,9 @@ typedef unsigned short ushort;
 
 typedef unsigned char byte;
 
+/**
+ *
+ */
 typedef struct
 {
 	uint value;
@@ -25,59 +28,122 @@ typedef struct
 } Inputs;
 
 bool isFemale, isCardinalNumber;
+
 char* response = NULL;
 
+/**
+ *
+ */
 void startApp(void);
 
+/**
+ *
+ */
 void print(const char*);
 
+/**
+ *
+ */
 const char* getMenu(void);
 
+/**
+ *
+ */
 Inputs getInputs(void);
 
+/**
+ *
+ */
 bool isValid(uint);
 
+/**
+ *
+ */
 void turnIntoExtensive(uint);
 
-
+/**
+ *
+ */
 void writeMillions(uint);
 
+/**
+ *
+ */
 void writeThousands(uint);
 
+/**
+ *
+ */
 void writeHundreds(uint);
 
+/**
+ *
+ */
 void numext(uint);
 
-
+/**
+ *
+ */
 char* switchC(uint, uint, uint);
 
+/**
+ *
+ */
 char* switchD(short, short);
 
+/**
+ *
+ */
 char* switchU(short);
 
+/**
+ *
+ */
 char* switchCase1(short);
 
-
+/**
+ *
+ */
 bool isOrdinal();
 
+/**
+ *
+ */
 char* appendOrdinalSuffix(char*);
 
+/**
+ *
+ */
 char* appendCardinalSuffix(char*);
 
-
-
+/**
+ *
+ */
 char* getCentenaOrdinal(uint);
 
+/**
+ *
+ */
 char* getCentenaCardinal(uint);
 
+/**
+ *
+ */
 char* getDezenaOrdinal(uint);
 
+/**
+ *
+ */
 char* getDezenaOrdinal(uint);
 
-
-
+/**
+ *
+ */
 char* centenas(char*, char*, short);
 
+/**
+ *
+ */
 char* dezenas(char*, char*, short);
 
 #endif
