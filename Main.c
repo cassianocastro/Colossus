@@ -3,7 +3,7 @@
 
 #include "./src/app/includes/Colossus.h"
 
-int main(int argc, char const *argv[])
+int main(int argc, const char* argv[])
 {
     setlocale(LC_ALL, "");
 
