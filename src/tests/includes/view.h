@@ -7,7 +7,7 @@
 /**
  *
  */
-bool isInvalid(uint value);
+bool isInvalid(uint);
 
 /**
  *

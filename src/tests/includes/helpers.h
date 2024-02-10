@@ -5,21 +5,21 @@
 /**
  *
  */
-char* getContent(char* cardinal, char* ordinal);
+char* getContent(char*, char*);
 
 /**
  *
  */
-void sufixo_ordinal(char* text);
+void sufixo_ordinal(char*);
 
 /**
  *
  */
-void sufixo_cardinal(char* text);
+void sufixo_cardinal(char*);
 
 /**
  *
  */
-void getRepr(char* text, char* cardinal, char* ordinal);
+void getRepr(char*, char*, char*);
 
 #endif

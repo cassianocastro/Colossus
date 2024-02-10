@@ -7,41 +7,41 @@
 /**
  *
  */
-char* numext(uint value, char* response);
+char* numext(uint, char*);
 
 /**
  *
  */
-void setHouseOfCentenas(houses house, char* response);
+void setHouseOfCentenas(houses, char*);
 
 /**
  *
  */
-void setHouseOfDezenas(houses house, char* response);
+void setHouseOfDezenas(houses, char*);
 
 /**
  *
  */
-void setHouseOfUnidades(houses house, char* response);
+void setHouseOfUnidades(houses, char*);
 
 /**
  *
  */
-void switchCentena(houses houseOf, char* text);
+void switchCentena(houses, char*);
 
 /**
  *
  */
-void switchDezena(houses houseOf, char* text);
+void switchDezena(houses, char*);
 
 /**
  *
  */
-void switchUnidade(houses houseOf, char* text);
+void switchUnidade(houses, char*);
 
 /**
  *
  */
-void switchCase1(int u, char* text);
+void switchCase1(int, char*);
 
 #endif

@@ -7,21 +7,21 @@
 /**
  *
  */
-void numeroextenso(uint value);
+void numeroextenso(uint);
 
 /**
  *
  */
-void setDivisionOfMilhoes(uint value, char* response);
+void setDivisionOfMilhoes(uint, char*);
 
 /**
  *
  */
-void setDivisionOfMilhares(uint value, char* response);
+void setDivisionOfMilhares(uint, char*);
 
 /**
  *
  */
-void setDivisionOfCentenas(uint value, char* response);
+void setDivisionOfCentenas(uint, char*);
 
 #endif
