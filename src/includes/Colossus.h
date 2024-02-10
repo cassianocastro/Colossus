@@ -25,11 +25,12 @@ typedef struct
 	uint value;
 	byte sex;
 	byte type;
-} Inputs;
+}
+Inputs;
 
-bool isFemale, isCardinalNumber;
+extern bool isFemale, isCardinalNumber;
 
-char* response = NULL;
+extern char* response;
 
 /**
  *
