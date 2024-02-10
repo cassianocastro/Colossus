@@ -1,7 +1,8 @@
-#include <stdbool.h>
-
 #ifndef COLOSSUS_H
+
 #define COLOSSUS_H
+
+#include <stdbool.h>
 
 #define MAX_SIZE_RESPONSE 200
 
