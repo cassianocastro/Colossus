@@ -1,5 +1,9 @@
 #include "../includes/Colossus.h"
 
+bool isFemale = false, isCardinalNumber = false;
+
+char* response = NULL;
+
 const uint ONE_MILLION = 1000000;
 const uint THOUSAND    = 1000;
 const ushort HUNDRED   = 100;
